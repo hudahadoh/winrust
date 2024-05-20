@@ -15,7 +15,7 @@ C:\Users\Public\Desktop\Winrar.exe /S
 del C:\Users\Public\Desktop\Winrar.exe
 del /f "C:\Users\Public\Desktop\Epic Games Launcher.lnk" > errormsg.txt 2>&1
 del /f "C:\Users\Public\Desktop\Unity Hub.lnk" > errormsg.txt 2>&1
-set password=@#Disala787878
+set password=@#Disala123456
 
 powershell -Command "Remove-Module Microsoft.PowerShell.Security -ErrorAction SilentlyContinue; Import-Module Microsoft.PowerShell.Security; Set-LocalUser -Name 'runneradmin' -Password (ConvertTo-SecureString -AsPlainText '%password%' -Force)"
 
